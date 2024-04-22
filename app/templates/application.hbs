@@ -2,9 +2,12 @@
 
 <div class="justify-center m-auto">
   <div class="container mx-auto pt-6 text-center flex flex-col">
-    <h2 class="text-4xl font-semibold mb-10 underline" id="title">
+    <h2 class="text-4xl font-semibold underline" id="title">
       Template Tag Format
     </h2>
+    <h3 class="mb-6 mt-3">
+      <abbr title="Glimmer-JS" class="text-sm bg-orange-400 border rounded">.GJS</abbr> & <abbr title="Glimmer-TS" class="text-sm bg-orange-400 border rounded">.GTS</abbr>
+    </h3>
 
     <div class="flex flex-col gap-4">
       <p class="w-1/2 mx-auto">The template tag format is a powerful, new way to write components in
@@ -17,24 +20,41 @@
       </p>
 
       <p class="w-1/2 mx-auto">
-        We can import "old" components that has the <span class="font-bold">"template-colocation structure"</span>
-        (js class and its hbs template in the same directory), so we can start using it today has it has retro-compatibility
+        We can use "old style" components as long as they have the <span class="font-bold">"template-colocation structure"</span>  <span class="text-sm bg-orange-400 border rounded">(.hbs + .js in same folder)</span>
       </p>
+
+      <p>
+        This new way of build components gives extra functionality.
+      </p>
+
+      <p>
+        <span class="font-bold">Scoped variables</span> The values that are not exported they live only in that file
+        <br>
+        <span class="font-bold">Multiple components per file</span> One <abbr title="Glimmer-JS" class="text-sm bg-orange-400 border rounded">.GJS</abbr> file can hold multiple template tag components
+      </p>
+
+      <a class="underline text-orange-500 hover:text-orange-700 uppercase text-sm"
+        href="https://guides.emberjs.com/release/components/template-tag-format/"
+        target="_blank" rel="noopener noreferrer" >Source</a>
     </div>
 
-{{!--    <div class="border-2 rounded my-6">
+    {{!-- <div class="border-2 rounded my-6">
       <h2 class="text-3xl font-semibold mb-10 underline">
         Demo time
       </h2>
 
       <Button />
 
-      <exportTemplate />
+      <ExportTemplate />
+
+      <Grouped::Card />
 
       <Button @buttonText="My button" />
+
       <Invocables />
 
       <ClassBasedComponent />
+
       <ClassBasedComponent @title="Class based component"/>
     </div> --}}
 

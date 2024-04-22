@@ -25,7 +25,7 @@ function alertMe() {
       {{on "click" alertMe}}
       type="button"
       class="border p-4 text-white bg-slate-800 rounded-md">
-        {{if @buttonText @buttonText "Click me"}}
+        {{if @buttonText @buttonText "Button GJS component"}}
       </button>
   </div>
 </template>
