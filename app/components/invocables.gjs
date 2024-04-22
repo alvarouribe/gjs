@@ -1,9 +1,9 @@
 import Button from "./button";
-import randomNumber from "../helpers/random-number";
+import randomNumber from "../helpers/random-number"; // helpers or modifiers
 
 <template>
-  <div class="flex justify-center my-12">
-    <div class="w-1/2 border border-2 border-black rounded-xl">
+  <div class=" flex justify-center my-12">
+    <div class="bg-gradient-to-r from-green-400 to-blue-500 text-white w-1/2 border-2 border-black rounded-xl">
 
       <h1 class="text-xl font-bold uppercase pt-2">Invocables</h1>
 

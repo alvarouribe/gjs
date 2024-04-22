@@ -1,3 +1,18 @@
+// // Built-in helpers
+// import { array } from '@ember/helper';
+// import { concat } from '@ember/helper';
+// import { fn } from '@ember/helper';
+// import { get } from '@ember/helper';
+// import { hash } from '@ember/helper';
+
+// // Built-in modifiers
+// import { on } from '@ember/modifier';
+
+// // Built-in components
+// import { Input } from '@ember/component';
+// import { LinkTo } from '@ember/routing';
+// import { Textarea } from '@ember/component';
+
 import { on } from "@ember/modifier";
 
 function alertMe() {
