@@ -1,11 +1,11 @@
-import { on } from '@ember/modifier';
+import { on } from "@ember/modifier";
 
 function alertMe() {
-  alert('You clicked me!');
+  alert("You clicked me!");
 }
 
 <template>
-  <div class="flex justify-center p-12">
+  <div class="flex justify-center p-2">
     <button
       {{on "click" alertMe}}
       type="button"
