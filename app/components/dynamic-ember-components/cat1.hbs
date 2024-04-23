@@ -2,7 +2,10 @@
 {{!-- cat 1 component --}}
 <img class="w-24 h-24 rounded-full mx-auto" src="images/cat1.jpg" alt="cat1" ...attributes>
 
-<button type="button" class="p-10 font-semibold" {{on "click" (fn @onSave "cat1")}}>
+<button
+  type="button"
+  class="border p-4 text-white bg-slate-800 rounded-md"
+ {{on "click" (fn @onSave "cat1")}}>
   ON SAVE
 </button>
 </div>
