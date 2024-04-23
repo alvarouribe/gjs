@@ -6,4 +6,8 @@ export default class Router extends EmberRouter {
   rootURL = config.rootURL;
 }
 
-Router.map(function () {});
+Router.map(function () {
+  this.route('cats');
+  this.route('dynamic-ember-component');
+  this.route('template-tag-format');
+});
